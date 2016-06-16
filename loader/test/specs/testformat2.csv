@@ -1,0 +1,6 @@
+"column name",width,datatype
+firstname,10,TEXT
+lastname,10,TEXT
+age,3,INTEGER
+gender,1,TEXT
+flag,1,BOOLEAN
