@@ -11,8 +11,8 @@ log_level = logging.INFO
 
 mysqlconntest = {
   'user': 'loader',
-  'password': 'loader123',
-  'host': 'abetlp01.internal.shutterfly.com',
+  'password': 'loader',
+  'host': 'localhost',
   'database': 'work',
   'raise_on_warnings': False,
   'charset': 'utf8',
