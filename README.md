@@ -17,13 +17,18 @@ https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
 Install nose from pypi for tests
 
 
+
+
 ## Setup
 git clone https://github.com/sukparth/DataLoader.git
+
 cd DataLoader/loader
 
-#############
-Edit config.py with the correct database configuration for mysqlconn connection dictionary if needed
+
+Edit config.py with the correct database configuration for mysqlconn connection dictionary if needed.
+
 The default parameters are as below
+
 mysqlconn = {
   'user': 'loader',
   'password': 'loader',
@@ -33,7 +38,7 @@ mysqlconn = {
   'charset': 'utf8',
   'use_unicode': True
 }
-################
+
 
 ## Run
 python loader.py
